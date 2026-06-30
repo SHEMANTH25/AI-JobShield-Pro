@@ -1,0 +1,15 @@
+backend/ml/datasets/
+*.csv
+*.xlsx
+backend/venv/
+frontend/node_modules/
+__pycache__/
+*.pyc
+*.db
+.env
+.vscode/
+venv/
+.venv/
+AI_JobShield_Pro/venv/
+__pycache__/
+*.pyc

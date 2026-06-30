@@ -1,0 +1,171 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* ---------------- BODY ---------------- */
+
+body{
+    background:#0F172A;
+    color:#FFFFFF;
+}
+
+/* ---------------- TEXT ---------------- */
+
+h1,h2,h3,h4,h5,h6{
+    color:#FFFFFF;
+    font-weight:600;
+}
+
+p{
+    color:#CBD5E1;
+}
+
+.text-muted{
+    color:#CBD5E1 !important;
+}
+
+/* ---------------- BUTTONS ---------------- */
+
+.btn{
+    border-radius:10px;
+    padding:10px 22px;
+    transition:.3s;
+    font-weight:500;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+/* ---------------- CARDS ---------------- */
+
+.card{
+    background:#1E293B;
+    color:#FFFFFF;
+    border:none;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+/* ---------------- INPUTS ---------------- */
+
+.form-control,
+.form-select{
+    border-radius:10px;
+    padding:12px;
+    background:#F8FAFC;
+    color:#0F172A;
+    border:1px solid #CBD5E1;
+}
+
+.form-control::placeholder{
+    color:#64748B;
+}
+
+.form-control:focus{
+    background:#FFFFFF;
+    color:#0F172A;
+    border-color:#2563EB;
+    box-shadow:0 0 0 .15rem rgba(37,99,235,.25);
+}
+
+/* ---------------- PAGE TITLE ---------------- */
+
+.page-title{
+    font-size:34px;
+    font-weight:700;
+    margin-bottom:10px;
+    color:#FFFFFF;
+}
+
+/* ---------------- SECTION ---------------- */
+
+.section{
+    padding:60px 0;
+}
+
+/* ---------------- RESULT CARD ---------------- */
+
+.result-card{
+    border-left:5px solid #2563EB;
+}
+
+/* ---------------- BADGES ---------------- */
+
+.badge{
+    font-size:14px;
+    padding:8px 12px;
+}
+
+/* ---------------- TABLE ---------------- */
+
+.table{
+    border-radius:10px;
+    overflow:hidden;
+    color:white;
+}
+
+.table thead{
+    background:#2563EB;
+    color:white;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer{
+    margin-top:70px;
+    padding:30px;
+    text-align:center;
+    background:#020617;
+    color:white;
+}
+
+/* ---------------- LINKS ---------------- */
+
+a{
+    text-decoration:none;
+}
+
+/* ---------------- SCROLLBAR ---------------- */
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#2563EB;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0F172A;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+
+@media(max-width:768px){
+
+    h1{
+        font-size:34px !important;
+    }
+
+    h2{
+        font-size:28px !important;
+    }
+
+    .page-title{
+        font-size:28px;
+    }
+
+    .btn{
+        width:100%;
+    }
+
+}
